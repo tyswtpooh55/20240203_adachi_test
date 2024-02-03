@@ -1,0 +1,112 @@
+.contact-form {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    text-align: center;
+}
+
+.contact-form__heading--item {
+    font-size: 35px;
+    font-weight: 400;
+    color: #8b7969;
+}
+
+.form {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__group-title {
+    font-size: 20px;
+    width: 280px;
+    text-align: left;
+}
+
+.form__label--item {
+    color: #8b7969;
+}
+
+.form__label--required {
+    color: #ff9494;
+}
+
+.form__group-content {
+    text-align: left;
+}
+
+select {
+    option[value=""] {
+        display: none;
+    }
+}
+
+
+::placeholder {
+    font-size: 14px;
+    color: #beb1a6;
+}
+
+.form__error {
+    color: #ff9494;
+}
+
+input[type="radio"] {
+    accent-color: #8B7969;
+
+}
+
+label {
+    color: #8B7969;
+    font-size: 18px;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    border: none;
+}
+
+.form__input--text input {
+    height: 18px;
+}
+
+.form__input--textarea textarea {
+    height: 120px;
+    resize: none;
+}
+
+select {
+    appearance: none;
+}
+
+.form__select::before {
+    /*選択三角*/
+    color: #8B7969;
+}
+
+select, option {
+    border: none;
+    color: #beb1a6;
+}
+
+.form__button {
+    margin-top: 50px;
+}
+
+.form__button-submit {
+    padding: 10px 40px;
+    width: 160px;
+    height: 50px;
+    border: none;
+    background-color: #82756A;
+    font-size: 20px;
+    color: #fff;
+}
